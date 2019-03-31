@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+buildscript {
+	ext {
+		
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		
+	}
+}
+
+
+group = 'com.java.webservice'
+version = '0.0.1-SNAPSHOT'
+
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+// https://mvnrepository.com/artifact/com.sun.jersey/jersey-client
+compile group: 'com.sun.jersey', name: 'jersey-client', version: '1.8'
+//compile group: 'com.sun.jersey', name: 'jersey-bundle', version: '1.18'
+
+}

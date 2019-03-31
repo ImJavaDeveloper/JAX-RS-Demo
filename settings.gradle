@@ -1,0 +1,5 @@
+rootProject.name = 'JAX-RS-Demo'
+include 'JAX-RS-Web'
+include 'JAX-RS-Client'
+
+
